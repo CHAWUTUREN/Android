@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"/>
+
+        <fragment
+            android:id="@+id/fragment_listView"
+            android:name="com.example.fragment.ListViewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="11"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:text="@string/btn_add"/>
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:text="@string/btn_search"/>
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--&lt;!&ndash;                    创建数据库的按键&ndash;&gt;-->
+<!--            <Button-->
+<!--                android:id="@+id/create_database"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:text="@string/btn_create"/>-->
+
+<!--&lt;!&ndash;            更新数据库按键&ndash;&gt;-->
+<!--            <Button-->
+<!--                android:id="@+id/update_database"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:text="@string/btn_update"/>-->
+
+<!--        </LinearLayout>-->
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

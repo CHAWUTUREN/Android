@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Receiver</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_query">Query</string>
+</resources>

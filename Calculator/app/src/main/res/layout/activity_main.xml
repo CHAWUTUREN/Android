@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id = "@+id/textView_M_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="34dp"
+            android:gravity="right|center"
+            android:text=""/>
+
+        <TextView
+            android:id = "@+id/textView_M_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="34dp"
+            android:gravity="right|center"
+            android:text = "0"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id = "@+id/button_M_AC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text = "@string/AC"/>
+
+            <Button
+                android:id = "@+id/button_M_Del"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Del"/>
+
+            <Button
+                android:id = "@+id/button_Bra_L"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Bra_L"/>
+
+            <Button
+                android:id = "@+id/button_Bra_R"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Bra_R"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id = "@+id/button_Sin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="@string/Sin"/>
+
+            <Button
+                android:id = "@+id/button_Cos"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="@string/Cos"/>
+
+            <Button
+                android:id = "@+id/button_Tan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="@string/Tan"/>
+
+            <Button
+                android:id = "@+id/button_M_Div"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Div"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id = "@+id/button_M_N7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Num7"/>
+
+            <Button
+                android:id = "@+id/button_M_N8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Num8"/>
+
+            <Button
+                android:id = "@+id/button_M_N9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Num9"/>
+
+            <Button
+                android:id = "@+id/button_M_Mul"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Mul"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id = "@+id/button_M_N4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Num4"/>
+
+            <Button
+                android:id = "@+id/button_M_N5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Num5"/>
+
+            <Button
+                android:id = "@+id/button_M_N6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Num6"/>
+
+            <Button
+                android:id = "@+id/button_M_Sub"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Sub"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id = "@+id/button_M_N1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Num1"/>
+
+            <Button
+                android:id = "@+id/button_M_N2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Num2"/>
+
+            <Button
+                android:id = "@+id/button_M_N3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Num3"/>
+
+            <Button
+                android:id = "@+id/button_M_Add"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Add"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id = "@+id/button_M_N0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Num0"/>
+
+            <Button
+                android:id = "@+id/button_M_P"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Point"/>
+
+            <Button
+                android:id = "@+id/button_M_E"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:text = "@string/Equal"/>
+
+<!--            <Button-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"/>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

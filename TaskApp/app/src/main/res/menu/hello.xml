@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id = "@+id/menu_doing"
+        android:title="未完成"/>
+    <item
+        android:id = "@+id/menu_done"
+        android:title = "已完成"/>
+    <item
+        android:id="@+id/menu_help"
+        android:title="帮助"/>
+    <item
+        android:id = "@+id/menu_quit"
+        android:title = "退出"/>
+
+
+</menu>

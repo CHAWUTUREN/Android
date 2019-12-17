@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">音乐播放器</string>
+    <string name="btn_create">创建数据库</string>
+    <string name="btn_before">上一首</string>
+    <string name="btn_start">播放</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_next">下一首</string>
+    <string name="btn_random">列表循环</string>
+    <string name="btn_add_item">新增歌单</string>
+    <string name="btn_add_music">新增歌曲</string>
+    <string name="view_name">正在播放:</string>
+    <string name="menu_search">扫描</string>
+    <string name="menu_help">帮助</string>
+    <string name="btn_save">收藏</string>
+</resources>

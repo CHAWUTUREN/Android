@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WordBook</string>
+    <string name="word_name">Word</string>
+    <string name="word_translate">Translate</string>
+    <string name="word_example">Example</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_create">Create</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="empty">There is nothing</string>
+</resources>
